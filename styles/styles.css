@@ -1,0 +1,199 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+display: flex;
+background-color: #141414;
+font-family: Inter;
+}
+
+
+
+header {
+display: flex;
+flex-direction: row;
+flex: 1;
+}
+
+aside {
+display: flex;
+max-width: 224px;
+width: 100vw;
+height: 100vh;
+padding: 16px 16px 0px 16px;
+flex-direction: column;
+align-items: flex-start;
+gap: 32px;
+flex-shrink: 0;
+border-right: 1px solid #434343;
+background: #222224;
+}
+
+.companyLogo {
+width: 192px;
+height: 46px;
+flex-shrink: 0;
+}
+
+.headerNavWrapper {
+display: flex;
+max-width: 192px;
+width: 100vw;
+padding-bottom: 24px;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+border-bottom: 1px solid #434343;
+}
+
+.navHeading {
+color: #989898;
+font-size: 14px;
+font-weight: 500;
+line-height: 18px;
+align-self: stretch;
+text-transform: capitalize;
+}
+
+
+.headerUlFirst {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+align-self: stretch;
+list-style: none;
+}
+
+.headerNavFirstLis {
+display: flex;
+padding: 8px 16px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+align-self: stretch;
+}
+
+.headerNavFirstLis:hover {
+border-radius: 12px;
+background-color: #FAE101;
+max-width: 192px;
+width: 100vw;
+}
+
+.FirstLinkWrapper {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 8px;
+}
+
+.headerNavFirstLinks {
+color: #FFF;
+font-weight: 500;
+line-height: 24px;
+text-transform: capitalize;
+text-decoration: none;
+}
+
+
+.headerNavFirstLinks:hover {
+color: #000;
+font-weight: 500;
+line-height: 24px;
+}
+
+.SearchbarWrapper {
+display: inline-flex;
+padding: 16px 16px 16px 366px;
+align-items: flex-end;
+justify-content: flex-end;
+gap: 208px;
+border-bottom: 1px solid #434343;
+background: #141414;
+width: 100vw;
+height: 72px;
+}
+
+.searchWrapper {
+display: flex;
+justify-content: center;
+align-self: center;
+flex-grow: 3;
+
+}
+
+.searchInsideWrapper {
+display: flex;
+align-items: center;
+flex-direction: row;
+}
+
+.userSignInside {
+display: flex;
+align-items: center;
+gap: 12px;
+}
+
+
+.userSignWrapper {
+display: flex;
+justify-content: flex-end;
+align-self: flex-end;
+gap: 12px;
+}
+
+
+.searchFormSearch {
+display: flex;
+padding: 8px 10px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+flex-grow: 1;
+width: 438px;
+background: black;
+border-radius: 8px 0px 0px 8px;
+border-top: 1px solid #FAE101;
+border-bottom: 1px solid #FAE101;
+border-left: 1px solid #FAE101;
+}
+
+.serchClick {
+display: flex;
+padding: 8px 12px;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+border-radius: 0px 8px 8px 0px;
+background: #FAE101;
+flex-grow: 2;
+}
+
+.headerMianSeparatorWrapper {
+display: inline-flex;
+flex-direction: row;
+gap: 32px;
+flex-grow: 1;
+}
+
+
+
+/*main container Wrapper */
+
+.maincContainerWrapper {
+ display: flex;
+ flex-direction: column;
+justify-content: center;
+align-items: center;
+
+ max-width: 1080px;
+ width: 100vw;
+flex-grow: 2;
+}
+
+
+.
