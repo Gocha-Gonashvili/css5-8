@@ -1,129 +1,129 @@
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-display: flex;
-background-color: #141414;
-font-family: Inter;
+    display: flex;
+    background-color: #141414;
+    font-family: Inter;
 }
 
 
 
 header {
-display: flex;
-flex-direction: row;
-max-width: 224px;
-width: 100vw;
+    display: flex;
+    flex-direction: row;
+    max-width: 224px;
+    width: 100vw;
 }
 
 aside {
-display: flex;
-max-width: 224px;
-width: 100vw;
-height: auto;
-padding: 16px 16px 0px 16px;
-flex-direction: column;
-align-items: flex-start;
-gap: 32px;
-flex-shrink: 0;
-border-right: 1px solid #434343;
-background: #222224;
+    display: flex;
+    max-width: 224px;
+    width: 100vw;
+    height: auto;
+    padding: 16px 16px 0px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0;
+    border-right: 1px solid #434343;
+    background: #222224;
 }
 
 .companyLogo {
-width: 192px;
-height: 46px;
-flex-shrink: 0;
+    width: 192px;
+    height: 46px;
+    flex-shrink: 0;
 }
 
 .headerNavWrapper {
-display: flex;
-max-width: 192px;
-width: 100vw;
-padding-bottom: 24px;
-flex-direction: column;
-align-items: flex-start;
-gap: 16px;
-border-bottom: 1px solid #434343;
+    display: flex;
+    max-width: 192px;
+    width: 100vw;
+    padding-bottom: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    border-bottom: 1px solid #434343;
 }
 
 .navHeading {
-color: #989898;
-font-size: 14px;
-font-weight: 500;
-line-height: 18px;
-align-self: stretch;
-text-transform: capitalize;
+    color: #989898;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    align-self: stretch;
+    text-transform: capitalize;
 }
 
 
 .headerUlFirst {
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 8px;
-align-self: stretch;
-list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    list-style: none;
 }
 
 .headerNavFirstLis {
-display: flex;
-padding: 8px 16px;
-flex-direction: column;
-align-items: flex-start;
-gap: 10px;
-align-self: stretch;
+    display: flex;
+    padding: 8px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
 }
 
 .headerNavFirstLis:hover {
-border-radius: 12px;
-background-color: #FAE101;
-max-width: 192px;
-width: 100vw;
+    border-radius: 12px;
+    background-color: #FAE101;
+    max-width: 192px;
+    width: 100vw;
 }
 
 .FirstLinkWrapper {
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
 }
 
 .headerNavFirstLinks {
-color: #FFF;
-font-weight: 500;
-line-height: 24px;
-text-transform: capitalize;
-text-decoration: none;
+    color: #FFF;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+    text-decoration: none;
 }
 
 
 .headerNavFirstLinks:hover {
-color: #000;
-font-weight: 500;
-line-height: 24px;
+    color: #000;
+    font-weight: 500;
+    line-height: 24px;
 }
 
 .SearchbarWrapper {
-display: inline-flex;
-padding: 16px 16px 16px 366px;
-align-items: flex-end;
-justify-content: space-between;
-gap: 208px;
-border-bottom: 1px solid #434343;
-background: #141414;
-width: AUTO;
-height: 72px;
+    display: inline-flex;
+    padding: 16px 16px 16px 366px;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 208px;
+    border-bottom: 1px solid #434343;
+    background: #141414;
+    width: AUTO;
+    height: 72px;
 }
 
 
 .userSignInside {
-display: flex;
-align-items: center;
-gap: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
 .searchForm {
@@ -133,62 +133,62 @@ gap: 12px;
 }
 
 .userSignWrapper {
-display: flex;
-justify-content: flex-end;
-align-self: flex-end;
-gap: 12px;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    gap: 12px;
 }
 
 
 .searchFormSearch {
-display: flex;
-padding: 8px 10px;
-flex-direction: column;
-align-items: flex-start;
-gap: 10px;
-max-width: auto;
-width: 100%;
-background: black;
-border-radius: 8px 0px 0px 8px;
-border-top: 1px solid #FAE101;
-border-bottom: 1px solid #FAE101;
-border-left: 1px solid #FAE101;
-border-right: 0;
-color: #FFF;
-font-weight: 500;
-line-height: 24px; 
+    display: flex;
+    padding: 8px 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    max-width: auto;
+    width: 100%;
+    background: black;
+    border-radius: 8px 0px 0px 8px;
+    border-top: 1px solid #FAE101;
+    border-bottom: 1px solid #FAE101;
+    border-left: 1px solid #FAE101;
+    border-right: 0;
+    color: #FFF;
+    font-weight: 500;
+    line-height: 24px;
 }
 
 .serchClick {
-display: flex;
-padding: 8px 12px;
-flex-direction: column;
-align-self: stretch;
-align-items: center;
-gap: 10px;
-border-radius: 0px 8px 8px 0px;
-background: #FAE101;
+    display: flex;
+    padding: 8px 12px;
+    flex-direction: column;
+    align-self: stretch;
+    align-items: center;
+    gap: 10px;
+    border-radius: 0px 8px 8px 0px;
+    background: #FAE101;
 }
 
 .userSignName {
     color: #FFF;
-font-weight: 500;
-line-height: 24px; 
+    font-weight: 500;
+    line-height: 24px;
 }
 
 /*main container Wrapper */
 
 .maincContainerWrapper {
     width: 100%;
- display: flex;
- flex-direction: column;
-flex-grow: 1;
-gap: 32px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 32px;
 }
 
 main {
     display: inline-flex;
-align-items: center;
+    align-items: center;
     width: auto;
     flex-direction: column;
     gap: 32px;
@@ -199,83 +199,83 @@ align-items: center;
 
 .heroWrapper {
     display: inline-flex;
-padding: 19px 170px 19px 40px;
-width: 100%;
-align-items: center;
-justify-content: space-between;
-gap: 259px;
-border-radius: 16px;
-background: #222224;
+    padding: 19px 170px 19px 40px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 259px;
+    border-radius: 16px;
+    background: #222224;
 }
 
 .heroContentWrapper {
     display: flex;
-width: 336px;
-flex-direction: column;
-align-items: flex-start;
-gap: 8px;
+    width: 336px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
 }
 
 .heroHeading {
     color: #FAE101;
-font-size: 48px;
-font-weight: 600;
-align-self: stretch;
+    font-size: 48px;
+    font-weight: 600;
+    align-self: stretch;
 }
 
 .heroH2 {
     color: #FFF;
-font-size: 40px;
-font-weight: 800;
-width: 247px;
+    font-size: 40px;
+    font-weight: 800;
+    width: 247px;
 }
 
 .heroTxt {
     width: 314px;
     color: #B7B7B7;
-font-style: italic;
-font-weight: 400;
+    font-style: italic;
+    font-weight: 400;
 
 }
 
 .spanBold {
     color: #B7B7B7;
-font-style: italic;
-font-weight: 600;
+    font-style: italic;
+    font-weight: 600;
 }
 
 .categories {
     display: inline-flex;
-align-items: flex-start;
-align-self: flex-start;
-gap: 12px;
+    align-items: flex-start;
+    align-self: flex-start;
+    gap: 12px;
 }
 
 .categorieWrapper {
     display: flex;
-padding: 8px 16px 8px 12px;
-align-items: center;
-gap: 12px;
-border-radius: 24px;
-background: #222224;
+    padding: 8px 16px 8px 12px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 24px;
+    background: #222224;
 }
 
 .categorieWrapper img {
     width: 32px;
-height: 32px;
-border-radius: 50px;
-background:  lightgray 50%;
+    height: 32px;
+    border-radius: 50px;
+    background: lightgray 50%;
 }
 
 .categorieWrapper:hover {
     border-radius: 24px;
-background: #FAE101;
+    background: #FAE101;
 }
 
 .categoriesSmall {
     color: #FFF;
-font-weight: 500;
-line-height: 24px; 
+    font-weight: 500;
+    line-height: 24px;
 }
 
 .categoriesSmall:hover {
@@ -284,10 +284,10 @@ line-height: 24px;
 
 .flashSalesWrapper {
     display: flex;
-width: 100%;
-flex-direction: column;
-align-items: flex-start;
-gap: 16px;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
 }
 
 .flashSalesSaleWrapper {
@@ -301,73 +301,73 @@ gap: 16px;
 .fllashSalesHeading {
     align-self: stretch;
     color: #FFF;
-font-weight: 600;
-line-height: 24px; 
+    font-weight: 600;
+    line-height: 24px;
 }
 
 .onsalesWrapper {
     display: flex;
-align-items: center;
-gap: 16px;
-align-self: stretch;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
 }
 
 .onSale {
     color: #FAE101;
-font-weight: 600;
-line-height: 24px; 
+    font-weight: 600;
+    line-height: 24px;
 }
 
 .timingWrapper {
     display: flex;
-align-items: center;
-gap: 12px;
+    align-items: center;
+    gap: 12px;
 }
 
 .ending {
     color: #797979;
-font-weight: 600;
-line-height: 24px; 
+    font-weight: 600;
+    line-height: 24px;
 }
 
 .timeWrapper {
     display: flex;
-align-items: center;
-gap: 4px;
+    align-items: center;
+    gap: 4px;
 }
 
 .timing {
     display: flex;
-width: 40px;
-height: 40px;
-padding: 10px;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 10px;
-border-radius: 4px;
-background: #FAE101;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: #FAE101;
 }
 
 .time {
     color: #000;
-font-weight: 600;
-line-height: 24px; 
+    font-weight: 600;
+    line-height: 24px;
 }
 
 .rectangleWrapper {
     display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-gap: 2px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2px;
 }
 
 .rectangle {
     width: 4px;
-height: 4px;
-border-radius: 50px;
-background: #D9D9D9;
+    height: 4px;
+    border-radius: 50px;
+    background: #D9D9D9;
 }
 
 
@@ -381,51 +381,51 @@ background: #D9D9D9;
 
 .saleCardWrapper {
     display: flex;
-padding: 16px;
-align-items: flex-start;
-gap: 12px;
-flex: 1 0 0;
-align-self: stretch;
-border-radius: 12px;
-border: 1px solid #FAE101;
-background: #222224;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 12px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 12px;
+    border: 1px solid #FAE101;
+    background: #222224;
 }
 
-.grinchPreason{
+.grinchPreason {
     height: 171px;
-flex: 1 0 0;
-border-radius: 9.865px;
-background: lightgray 50% ;
+    flex: 1 0 0;
+    border-radius: 9.865px;
+    background: lightgray 50%;
 }
 
 .saleCardContent {
     display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: flex-start;
-flex: 1 0 0;
-align-self: stretch;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
 }
 
 .saleCardContentTop {
     display: flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 4px;
-align-self: stretch;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
 }
 
 .saleCardStarsWrapper {
     display: flex;
-align-items: center;
-gap: 2px;
+    align-items: center;
+    gap: 2px;
 }
 
 .stole {
     color: #FFF;
-font-weight: 600;
-line-height: 24px; 
-align-self: stretch;
+    font-weight: 600;
+    line-height: 24px;
+    align-self: stretch;
 }
 
 
@@ -439,8 +439,8 @@ align-self: stretch;
 
 .pricesWrapper {
     display: flex;
-align-items: flex-start;
-gap: 4px;
+    align-items: flex-start;
+    gap: 4px;
 }
 
 .priceNow {
@@ -459,105 +459,106 @@ gap: 4px;
 
 .saleCardContentButton {
     display: flex;
-height: 40px;
-padding: 10px;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 10px;
-align-self: stretch;
-border-radius: 4px;
-background: #FAE101;
+    height: 40px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 4px;
+    background: #FAE101;
+    cursor: pointer;
 }
 
 .buttonTxt {
     color: #000;
-font-weight: 600;
-line-height: 24px;
+    font-weight: 600;
+    line-height: 24px;
 }
 
 .themesFullWrapper {
     display: flex;
-width: 100%;
-flex-direction: column;
-align-items: flex-start;
-gap: 32px;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
 }
 
 .themesTopWrapper {
     display: flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 16px;
-align-self: stretch;
-}
-
-.heading {
-    color: #FFF;
-font-weight: 600;
-line-height: 24px;
-align-self: stretch;
-}
-
-.allThemesWrapper {
-    display: flex;
-align-items: flex-start;
-gap: 24px;
-align-self: stretch;
-min-height: 380px;
-}
-
-.themeCardWrapper {
-    display: flex;
-padding: 16px;
-flex-direction: column;
-align-items: flex-start;
-gap: 12px;
-flex: 1 0 0;
-align-self: stretch;
-border-radius: 12px;
-border: 1px solid #FAE101;
-}
-
-.grinchPreason {
-    height: 171px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
     align-self: stretch;
-    border-radius: 9.865px;
-background:  lightgray 50%;
-}
-
-.themeCardContentWrapper {
-    display: flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 4px;
-align-self: stretch;
-}
-
-.ThemecardStarsWrapper {
-    display: flex;
-align-items: center;
-gap: 2px;
 }
 
 .heading {
     color: #FFF;
     font-weight: 600;
     line-height: 24px;
-    align-self: stretch; 
+    align-self: stretch;
+}
+
+.allThemesWrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    min-height: 380px;
+}
+
+.themeCardWrapper {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 12px;
+    border: 1px solid #FAE101;
+}
+
+.grinchPreason {
+    height: 171px;
+    align-self: stretch;
+    border-radius: 9.865px;
+    background: lightgray 50%;
+}
+
+.themeCardContentWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+}
+
+.ThemecardStarsWrapper {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.heading {
+    color: #FFF;
+    font-weight: 600;
+    line-height: 24px;
+    align-self: stretch;
 }
 
 .supporting {
     color: #797979;
     font-size: 14px;
-        font-weight: 400;
+    font-weight: 400;
     line-height: 18px;
     align-self: stretch;
 }
 
 .pinkDumbledoor {
-height: 240px;
-align-self: stretch;
-border-radius: 12px;
-background: lightgray 50%;
+    height: 240px;
+    align-self: stretch;
+    border-radius: 12px;
+    background: lightgray 50%;
 }
